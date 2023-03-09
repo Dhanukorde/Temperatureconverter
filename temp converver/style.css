@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    margin: 0;font-family: 'Jost', sans-serif;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    color: greenyellow;
+    font-size: 30px;
+}
+.main-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+#inputFahrenheit{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.res{
+    font-size: larger;
+    color: greenyellow;
+}
+.get{
+    font-size: larger;
+}
